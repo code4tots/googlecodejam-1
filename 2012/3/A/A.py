@@ -1,5 +1,5 @@
 # WATCH OUT FOR FLOATING POINT!!
-# My original solution involved calculating key as L[i]/1-P[i].
+# My original solution involved calculating key as L[i]/1-P[i]/100.
 # Works for small input, but generates wrong answer for large input!!
 class Key:
 	def __init__(self,ilp):
